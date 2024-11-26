@@ -14,7 +14,5 @@ Thumbs.db
 .env
 config.json
 credentials.json
-font/
-images/
 *.zip
 *.tar.gz
