@@ -35,7 +35,6 @@ body {
     overflow: hidden;
     z-index: 100;
     display: flex;
-    -moz-box-pack: center;
     justify-content: center;
     height: 80px;
 }
@@ -46,24 +45,23 @@ body {
     position: relative;
     max-width: 1166px;
     width: 100%;
-    -moz-box-pack: center;
     justify-content: center;
 }
 
+/* Этот комментарий добавлен для структурирования кода */
 .mui-18mlrpa {
     display: flex;
     flex-direction: row;
     max-width: 700px;
     width: 100%;
-    -moz-box-pack: justify;
     justify-content: space-between;
     padding: 12px;
 }
 
+/* Еще пример стилей */
 .mui-1ht14y9 {
     display: flex;
     flex-direction: column;
-    -moz-box-pack: center;
     justify-content: center;
     gap: 4px;
     width: auto;
@@ -75,22 +73,18 @@ body {
     font-weight: 400;
     letter-spacing: 1.32px;
     color: rgb(244, 240, 235);
-    -webkit-text-stroke-width: 0px;
     font-family: BANGOPRO;
     text-transform: uppercase;
 }
 
+/* Добавлены пробелы для структурирования */
 .mui-15j18an {
     margin: 0px;
     font-style: normal;
     font-size: 13px;
     line-height: 18px;
-    letter-spacing: 0px;
-    -webkit-text-stroke: 0px #E47B9A;
     font-family: "NUNITO", sans-serif;
     color: rgb(201, 177, 156);
-    background: unset;
-    filter: unset;
     font-weight: 700;
     -webkit-text-fill-color: #5CD834;
 }
@@ -98,7 +92,6 @@ body {
 .mui-gy1a23 {
     display: flex;
     flex-direction: row;
-    -moz-box-align: center;
     align-items: center;
 }
 
@@ -117,12 +110,10 @@ body {
     text-transform: uppercase;
     min-width: 64px;
     box-sizing: border-box;
-    -moz-box-pack: center;
     justify-content: center;
     white-space: nowrap;
     height: 48px;
     font-family: "GAMERIA", sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
@@ -137,7 +128,6 @@ body {
     border-radius: 16px;
     display: flex;
     flex-direction: row;
-    -moz-box-align: center;
     align-items: center;
     gap: 6px;
 }
@@ -147,31 +137,17 @@ body {
     text-transform: uppercase;
     -webkit-text-fill-color: #29C4B7;
     -webkit-text-stroke-width: 0px !important;
-    text-shadow: #F67D2E -1px -1px 0px, #9ABF47 0px -1px 0px, #4E72D8 1px -1px 0px, #F3A91C 1px 0px 0px, #7BC4E8 1px 1px 0px, rgb(155, 107, 39) 0px 1px 0px, rgb(155, 107, 39) -1px 1px 0px, rgb(155, 107, 39) -1px 0px 0px;
+    text-shadow: #F67D2E -1px -1px 0px, #9ABF47 0px -1px 0px, #4E72D8 1px -1px 0px, 
+                 #F3A91C 1px 0px 0px, #7BC4E8 1px 1px 0px, rgb(155, 107, 39) 0px 1px 0px, 
+                 rgb(155, 107, 39) -1px 1px 0px, rgb(155, 107, 39) -1px 0px 0px;
     filter: drop-shadow(#D14F92 0px 1.5px 0px);
-}
-
-.mui-81gsyc > span {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    letter-spacing: 1px;
-    background: linear-gradient(#6FA3CD 0%, #E85F42 115.91%) padding-box text;
-    -webkit-text-stroke: 1px #4CB28F;
-}
-
-.mui-81gsyc > span {
-    white-space: nowrap;
 }
 
 .mui-ljv8ic {
     display: flex;
     flex-direction: row;
-    -moz-box-pack: center;
     justify-content: center;
     width: 100%;
-    -moz-box-align: center;
     align-items: center;
     padding: 20px 0px;
     gap: 24px 0px;
@@ -183,16 +159,13 @@ body {
     margin-right: auto;
     display: flex;
     flex-direction: row;
-    -moz-box-align: center;
     align-items: center;
-    -moz-box-pack: justify;
     justify-content: space-between;
 }
 
 .mui-14647vy {
     display: flex;
     flex-direction: row;
-    -moz-box-align: center;
     align-items: center;
     gap: 32px;
 }
@@ -200,9 +173,7 @@ body {
 .mui-1tcm166 {
     width: fit-content;
     display: flex;
-    -moz-box-align: center;
     align-items: center;
-    -moz-box-pack: center;
     justify-content: center;
     cursor: pointer;
 }
@@ -210,7 +181,6 @@ body {
 .mui-1ftj51d {
     display: flex;
     flex-direction: row;
-    -moz-box-align: center;
     align-items: center;
     list-style: none;
     padding: 0px;
@@ -220,14 +190,12 @@ body {
 
 .mui-14s4iyf {
     display: flex;
-    -moz-box-align: center;
     align-items: center;
     position: relative;
 }
 
 .mui-1xe9xyf {
     display: flex;
-    -moz-box-align: center;
     align-items: center;
     padding: 0px;
     margin: 0px;
@@ -242,116 +210,16 @@ body {
     font-weight: 400;
     letter-spacing: 1.32px;
     color: rgb(244, 240, 235);
-    -webkit-text-stroke-width: 0px;
-    text-shadow: rgb(133, 100, 71) -1px -1px 0px, rgb(133, 100, 71) 0px -1px 0px, rgb(133, 100, 71) 1px -1px 0px, rgb(133, 100, 71) 1px 0px 0px, rgb(133, 100, 71) 1px 1px 0px, rgb(133, 100, 71) 0px 1px 0px, rgb(133, 100, 71) -1px 1px 0px, rgb(133, 100, 71) -1px 0px 0px;
-    filter: drop-shadow(rgb(133, 100, 71) 0px 2px 0px);
-    transition: 0.5s;
     font-size: 18px;
     line-height: 24px;
     font-family: BANGOPRO;
     text-transform: uppercase;
-}
-
-.mui-14s4iyf {
-    display: flex;
-    -moz-box-align: center;
-    align-items: center;
-    position: relative;
-}
-
-.mui-1xe9xyf {
-    display: flex;
-    -moz-box-align: center;
-    align-items: center;
-    padding: 0px;
-    margin: 0px;
-    background: transparent;
-    border: medium;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.mui-f8g9he {
-    margin: 0px;
-    font-weight: 400;
-    letter-spacing: 1.32px;
-    color: rgb(244, 240, 235);
-    -webkit-text-stroke-width: 0px;
-    text-shadow: rgb(133, 100, 71) -1px -1px 0px, rgb(133, 100, 71) 0px -1px 0px, rgb(133, 100, 71) 1px -1px 0px, rgb(133, 100, 71) 1px 0px 0px, rgb(133, 100, 71) 1px 1px 0px, rgb(133, 100, 71) 0px 1px 0px, rgb(133, 100, 71) -1px 1px 0px, rgb(133, 100, 71) -1px 0px 0px;
+    text-shadow: rgb(133, 100, 71) -1px -1px 0px, rgb(133, 100, 71) 0px -1px 0px, 
+                 rgb(133, 100, 71) 1px -1px 0px, rgb(133, 100, 71) 1px 0px 0px, 
+                 rgb(133, 100, 71) 1px 1px 0px, rgb(133, 100, 71) 0px 1px 0px, 
+                 rgb(133, 100, 71) -1px 1px 0px, rgb(133, 100, 71) -1px 0px 0px;
     filter: drop-shadow(rgb(133, 100, 71) 0px 2px 0px);
     transition: 0.5s;
-    font-size: 18px;
-    line-height: 24px;
-    font-family: BANGOPRO;
-    text-transform: uppercase;
-}
-
-.mui-14s4iyf {
-    display: flex;
-    -moz-box-align: center;
-    align-items: center;
-    position: relative;
-}
-
-.mui-1xe9xyf {
-    display: flex;
-    -moz-box-align: center;
-    align-items: center;
-    padding: 0px;
-    margin: 0px;
-    background: transparent;
-    border: medium;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.mui-f8g9he {
-    margin: 0px;
-    font-weight: 400;
-    letter-spacing: 1.32px;
-    color: rgb(244, 240, 235);
-    -webkit-text-stroke-width: 0px;
-    text-shadow: rgb(133, 100, 71) -1px -1px 0px, rgb(133, 100, 71) 0px -1px 0px, rgb(133, 100, 71) 1px -1px 0px, rgb(133, 100, 71) 1px 0px 0px, rgb(133, 100, 71) 1px 1px 0px, rgb(133, 100, 71) 0px 1px 0px, rgb(133, 100, 71) -1px 1px 0px, rgb(133, 100, 71) -1px 0px 0px;
-    filter: drop-shadow(rgb(133, 100, 71) 0px 2px 0px);
-    transition: 0.5s;
-    font-size: 18px;
-    line-height: 24px;
-    font-family: BANGOPRO;
-    text-transform: uppercase;
-}
-
-.mui-14s4iyf {
-    display: flex;
-    -moz-box-align: center;
-    align-items: center;
-    position: relative;
-}
-
-.mui-1xe9xyf {
-    display: flex;
-    -moz-box-align: center;
-    align-items: center;
-    padding: 0px;
-    margin: 0px;
-    background: transparent;
-    border: medium;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.mui-f8g9he {
-    margin: 0px;
-    font-weight: 400;
-    letter-spacing: 1.32px;
-    color: rgb(244, 240, 235);
-    -webkit-text-stroke-width: 0px;
-    text-shadow: rgb(133, 100, 71) -1px -1px 0px, rgb(133, 100, 71) 0px -1px 0px, rgb(133, 100, 71) 1px -1px 0px, rgb(133, 100, 71) 1px 0px 0px, rgb(133, 100, 71) 1px 1px 0px, rgb(133, 100, 71) 0px 1px 0px, rgb(133, 100, 71) -1px 1px 0px, rgb(133, 100, 71) -1px 0px 0px;
-    filter: drop-shadow(rgb(133, 100, 71) 0px 2px 0px);
-    transition: 0.5s;
-    font-size: 18px;
-    line-height: 24px;
-    font-family: BANGOPRO;
-    text-transform: uppercase;
 }
 
 .mui-1pqgegr {
@@ -369,22 +237,19 @@ body {
 .mui-1yj45il {
     margin: 0px;
     font-style: normal;
-    -webkit-text-stroke: 0px #7FAE39;
     line-height: 20px;
     font-weight: 800;
     font-family: "NUNITO", sans-serif;
     letter-spacing: 0.24px;
-    text-transform: initial;
-    -webkit-text-fill-color: #C54B76;
     color: rgb(245, 245, 245);
     background: unset;
     font-size: 13px;
+    -webkit-text-fill-color: #C54B76;
 }
 
 .mui-etw6ry {
     display: flex;
     flex-direction: row;
-    -moz-box-align: center;
     align-items: center;
     gap: 12px;
 }
@@ -398,9 +263,7 @@ body {
 .mui-g8v2su {
     cursor: pointer;
     display: flex;
-    -moz-box-align: center;
     align-items: center;
-    -moz-box-pack: center;
     justify-content: center;
     padding: 12px;
     border-radius: 100px;
@@ -420,7 +283,6 @@ body {
     width: 100%;
     overflow: hidden;
     text-align: center;
-    -moz-box-align: center;
     align-items: center;
     padding-bottom: 80px;
     margin-bottom: 80px;
@@ -433,9 +295,7 @@ body {
     height: 100%;
     min-height: 800px;
     width: 100%;
-    -moz-box-align: center;
     align-items: center;
-    -moz-box-pack: center;
     justify-content: center;
     overflow: hidden;
 }
@@ -461,7 +321,8 @@ body {
     right: 0px;
     height: 100%;
     width: 100%;
-    background: radial-gradient(74.62% 74.62% at 46.71% 25.38%, rgba(34, 25, 17, 0) 44.27%, rgb(34, 25, 17) 99.55%), linear-gradient(360deg, rgba(34, 25, 17, 0) 18.88%, rgb(34, 25, 17) 122.88%);
+    background: radial-gradient(74.62% 74.62% at 46.71% 25.38%, rgba(34, 25, 17, 0) 44.27%, rgb(34, 25, 17) 99.55%), 
+                linear-gradient(360deg, rgba(34, 25, 17, 0) 18.88%, rgb(34, 25, 17) 122.88%);
 }
 
 .mui-xte2ob {
@@ -475,7 +336,6 @@ body {
     display: flex;
     flex-direction: column;
     padding: 40px 16px;
-    -moz-box-pack: center;
     justify-content: center;
     height: 900px;
     gap: 28px;
@@ -486,7 +346,6 @@ body {
     flex-direction: column;
     padding-top: 12%;
     gap: 28px;
-    -moz-box-align: start;
     align-items: start;
     width: 100%;
 }
@@ -497,7 +356,6 @@ body {
     gap: 16px;
     z-index: 3;
     text-align: left;
-    -moz-box-align: start;
     align-items: start;
     width: 100%;
 }
@@ -506,7 +364,6 @@ body {
     display: flex;
     position: relative;
     flex-direction: row;
-    -moz-box-align: center;
     align-items: center;
     border-radius: 100px;
     background-color: rgb(69, 50, 33);
@@ -521,11 +378,9 @@ body {
     font-style: normal;
     line-height: 28px;
     letter-spacing: 0px;
-    -webkit-text-stroke: 0px rgb(139, 129, 116);
     font-weight: 800;
     font-family: "NUNITO", sans-serif;
     color: rgb(201, 177, 156);
-    filter: unset;
     background: unset;
     font-size: 17px !important;
     -webkit-text-fill-color: rgb(255, 213, 153);
@@ -537,10 +392,11 @@ body {
     font-weight: 400;
     letter-spacing: 2px;
     background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
-    -webkit-text-fill-color: unset;
-    -webkit-text-stroke: 0px rgb(139, 129, 116);
     color: rgb(244, 240, 235);
-    text-shadow: rgb(133, 100, 71) -2px -2px 0px, rgb(133, 100, 71) 0px -2px 0px, rgb(133, 100, 71) 2px -2px 0px, rgb(133, 100, 71) 2px 0px 0px, rgb(133, 100, 71) 2px 2px 0px, rgb(133, 100, 71) 0px 2px 0px, rgb(133, 100, 71) -2px 2px 0px, rgb(133, 100, 71) -2px 0px 0px;
+    text-shadow: rgb(133, 100, 71) -2px -2px 0px, rgb(133, 100, 71) 0px -2px 0px, 
+                 rgb(133, 100, 71) 2px -2px 0px, rgb(133, 100, 71) 2px 0px 0px, 
+                 rgb(133, 100, 71) 2px 2px 0px, rgb(133, 100, 71) 0px 2px 0px, 
+                 rgb(133, 100, 71) -2px 2px 0px, rgb(133, 100, 71) -2px 0px 0px;
     filter: drop-shadow(rgb(133, 100, 71) 0px 2px 0px);
     font-family: BANGOPRO;
     text-transform: uppercase;
@@ -570,31 +426,28 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    -moz-box-pack: center;
     justify-content: center;
-    -moz-box-align: center;
     align-items: center;
     white-space: nowrap;
     transition: 0.25s ease-in;
     padding: 18px 30px;
     border-radius: 20px;
     font-family: "GAMERIA", sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 1px;
-    -webkit-text-fill-color: unset;
-    -webkit-text-stroke: 1px rgb(139, 129, 116);
     background: rgb(226, 154, 54);
     border: 2px solid rgb(163, 112, 41);
     box-shadow: rgb(163, 112, 41) 0px 3px 0px 0px;
 }
 
 .mui-1nzm0el > span, .mui-1nzm0el > span:first-of-type {
-    -webkit-text-fill-color: rgb(244, 240, 235);
-    -webkit-text-stroke-width: 0px;
-    text-shadow: rgb(155, 107, 39) -1px -1px 0px, rgb(155, 107, 39) 0px -1px 0px, rgb(155, 107, 39) 1px -1px 0px, rgb(155, 107, 39) 1px 0px 0px, rgb(155, 107, 39) 1px 1px 0px, rgb(155, 107, 39) 0px 1px 0px, rgb(155, 107, 39) -1px 1px 0px, rgb(155, 107, 39) -1px 0px 0px;
+    color: rgb(244, 240, 235);
+    text-shadow: rgb(155, 107, 39) -1px -1px 0px, rgb(155, 107, 39) 0px -1px 0px, 
+                 rgb(155, 107, 39) 1px -1px 0px, rgb(155, 107, 39) 1px 0px 0px, 
+                 rgb(155, 107, 39) 1px 1px 0px, rgb(155, 107, 39) 0px 1px 0px, 
+                 rgb(155, 107, 39) -1px 1px 0px, rgb(155, 107, 39) -1px 0px 0px;
     filter: drop-shadow(rgb(155, 107, 39) 0px 2px 0px);
 }
 
@@ -606,10 +459,6 @@ body {
     letter-spacing: 1px;
     background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
     -webkit-text-stroke: 1px rgb(139, 129, 116);
-}
-
-.mui-1nzm0el > span {
-    white-space: nowrap;
 }
 
 .mui-1bxugv4 {
@@ -624,9 +473,7 @@ body {
     text-transform: uppercase;
     min-width: 64px;
     box-sizing: border-box;
-    -moz-box-pack: center;
     justify-content: center;
-    -moz-box-align: center;
     align-items: center;
     white-space: nowrap;
     transition: 0.25s ease-in;
@@ -639,7 +486,6 @@ body {
     line-height: 24px;
     letter-spacing: 1px;
     background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
-    -webkit-text-fill-color: unset;
     color: rgb(255, 213, 153);
     -webkit-text-stroke: 1px rgb(145, 88, 8);
     text-shadow: rgb(145, 88, 8) 0px 1px 0px;
@@ -655,10 +501,13 @@ body {
     line-height: 28px;
     letter-spacing: 1px;
     background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
-    -webkit-text-fill-color: unset;
-    -webkit-text-stroke: 0px rgb(139, 129, 116);
     color: rgb(255, 213, 153);
-    text-shadow: rgb(139, 87, 15) -1px -1px 0px, rgb(139, 87, 15) 0px -1px 0px, rgb(139, 87, 15) 1px -1px 0px, rgb(139, 87, 15) 1px 0px 0px, rgb(139, 87, 15) 1px 1px 0px, rgb(139, 87, 15) 0px 1px 0px, rgb(139, 87, 15) -1px 1px 0px, rgb(139, 87, 15) -1px 0px 0px, rgb(145, 86, 8) -1px 3px 0px, rgb(145, 86, 8) 0px 3px 0px, rgb(145, 86, 8) 1px 3px 0px;
+    text-shadow: rgb(139, 87, 15) -1px -1px 0px, rgb(139, 87, 15) 0px -1px 0px, 
+                 rgb(139, 87, 15) 1px -1px 0px, rgb(139, 87, 15) 1px 0px 0px, 
+                 rgb(139, 87, 15) 1px 1px 0px, rgb(139, 87, 15) 0px 1px 0px, 
+                 rgb(139, 87, 15) -1px 1px 0px, rgb(139, 87, 15) -1px 0px 0px, 
+                 rgb(145, 86, 8) -1px 3px 0px, rgb(145, 86, 8) 0px 3px 0px, 
+                 rgb(145, 86, 8) 1px 3px 0px;
     font-family: BANGOPRO;
     text-transform: uppercase;
 }
@@ -700,9 +549,7 @@ body {
 .mui-14j6eks {
     display: flex;
     flex-direction: row;
-    -moz-box-pack: justify;
     justify-content: space-between;
-    -moz-box-align: center;
     align-items: center;
     gap: 48px;
     padding: 100px 48px 120px;
@@ -723,18 +570,122 @@ body {
     gap: 16px;
 }
 
-.mui-1qvkqwv {
+.mui-gv8twc {
+    margin: 0px;
+    font-style: normal;
+    font-weight: 400;
+    background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
+    color: rgb(244, 240, 235);
+    padding-top: 8px;
+    font-family: BANGOPRO;
+    text-transform: uppercase;
+    width: 500px;
+    letter-spacing: 2px;
+    text-shadow: rgb(133, 100, 71) -1.5px -1.5px 0px, rgb(133, 100, 71) 0px -1.5px 0px, 
+                 rgb(133, 100, 71) 1.5px -1.5px 0px, rgb(133, 100, 71) 1.5px 0px 0px, 
+                 rgb(133, 100, 71) 1.5px 1.5px 0px, rgb(133, 100, 71) 0px 1.5px 0px, 
+                 rgb(133, 100, 71) -1.5px 1.5px 0px, rgb(133, 100, 71) -1.5px 0px 0px;
+    filter: drop-shadow(rgb(133, 100, 71) 0px 2px 0px);
+}
+
+.mui-em4hhf {
+    margin: 0px;
+    font-style: normal;
+    font-weight: 400;
+    background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
+    color: rgb(244, 240, 235);
+    font-family: BANGOPRO;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: rgb(133, 100, 71) -1px -1px 0px, rgb(133, 100, 71) 0px -1px 0px, 
+                 rgb(133, 100, 71) 1px -1px 0px, rgb(133, 100, 71) 1px 0px 0px, 
+                 rgb(133, 100, 71) 1px 1px 0px, rgb(133, 100, 71) 0px 1px 0px, 
+                 rgb(133, 100, 71) -1px 1px 0px, rgb(133, 100, 71) -1px 0px 0px;
+    filter: drop-shadow(rgb(133, 100, 71) 0px 1px 0px);
+}
+
+.mui-1grgdcn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 460px;
+}
+
+.mui-dz4avb {
+    margin: 0px;
+    font-style: normal;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-family: "NUNITO", sans-serif;
+    color: rgb(201, 177, 156);
+    max-width: 460px;
+}
+
+.mui-4wkn8j {
+    position: relative;
+    outline: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    min-width: 64px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    transition: 0.25s ease-in;
+    padding: 18px 30px;
+    border-radius: 20px;
+    font-family: "GAMERIA", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    background: rgb(226, 154, 54);
+    border: 2px solid rgb(163, 112, 41);
+    box-shadow: rgb(163, 112, 41) 0px 3px 0px 0px;
+}
+
+.mui-4wkn8j > span,
+.mui-4wkn8j > span:first-of-type {
+    -webkit-text-fill-color: rgb(244, 240, 235);
+    -webkit-text-stroke-width: 0px;
+    text-shadow: rgb(155, 107, 39) -1px -1px 0px, rgb(155, 107, 39) 0px -1px 0px, 
+                 rgb(155, 107, 39) 1px -1px 0px, rgb(155, 107, 39) 1px 0px 0px, 
+                 rgb(155, 107, 39) 1px 1px 0px, rgb(155, 107, 39) 0px 1px 0px, 
+                 rgb(155, 107, 39) -1px 1px 0px, rgb(155, 107, 39) -1px 0px 0px;
+    filter: drop-shadow(rgb(155, 107, 39) 0px 2px 0px);
+}
+
+.mui-4wkn8j > span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
+    -webkit-text-stroke: 1px rgb(139, 129, 116);
+}
+
+.mui-8zob45 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.mui-1wjcd5v {
     display: flex;
     position: relative;
-    flex-direction: row;
-    -moz-box-align: center;
-    align-items: center;
-    border-radius: 100px;
-    background-color: rgb(69, 50, 33);
-    gap: 6px;
-    width: fit-content;
-    max-height: 52px;
-    padding: 10px 16px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 665 / 511;
+    max-width: 665px;
 }
 
 .mui-6h2ygd {
@@ -752,36 +703,128 @@ body {
     -webkit-text-fill-color: rgb(255, 213, 153);
 }
 
-.mui-gv8twc {
-    margin: 0px;
-    font-style: normal;
-    font-weight: 400;
-    background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
-    -webkit-text-stroke: 0px rgb(139, 129, 116);
-    color: rgb(244, 240, 235);
-    padding-top: 8px;
-    font-family: BANGOPRO;
-    text-transform: uppercase;
-    width: 500px;
-    letter-spacing: 2px;
-    -webkit-text-fill-color: rgb(244, 240, 235);
-    text-shadow: rgb(133, 100, 71) -1.5px -1.5px 0px, rgb(133, 100, 71) 0px -1.5px 0px, rgb(133, 100, 71) 1.5px -1.5px 0px, rgb(133, 100, 71) 1.5px 0px 0px, rgb(133, 100, 71) 1.5px 1.5px 0px, rgb(133, 100, 71) 0px 1.5px 0px, rgb(133, 100, 71) -1.5px 1.5px 0px, rgb(133, 100, 71) -1.5px 0px 0px;
-    filter: drop-shadow(rgb(133, 100, 71) 0px 2px 0px);
+.mui-prq3ei {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    z-index: 3;
+    text-align: left;
+    -moz-box-align: start;
+    align-items: start;
+    width: 100%;
 }
 
-.mui-em4hhf {
-    margin: 0px;
-    font-style: normal;
-    font-weight: 400;
-    background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
-    -webkit-text-stroke: 0px rgb(139, 129, 116);
-    color: rgb(244, 240, 235);
-    font-family: BANGOPRO;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    -webkit-text-fill-color: rgb(255, 213, 153);
-    text-shadow: rgb(133, 100, 71) -1px -1px 0px, rgb(133, 100, 71) 0px -1px 0px, rgb(133, 100, 71) 1px -1px 0px, rgb(133, 100, 71) 1px 0px 0px, rgb(133, 100, 71) 1px 1px 0px, rgb(133, 100, 71) 0px 1px 0px, rgb(133, 100, 71) -1px 1px 0px, rgb(133, 100, 71) -1px 0px 0px;
-    filter: drop-shadow(rgb(133, 100, 71) 0px 1px 0px);
+.mui-1779oj {
+    display: flex;
+    flex-direction: column;
+    padding-top: 12%;
+    gap: 28px;
+    -moz-box-align: start;
+    align-items: start;
+    width: 100%;
+}
+
+.mui-1exhso2 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 16px;
+    -moz-box-pack: center;
+    justify-content: center;
+    height: 900px;
+    gap: 28px;
+}
+
+.mui-doak19 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    object-fit: cover;
+    object-position: center top;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.mui-157terx {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    min-height: 800px;
+    width: 100%;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.mui-5flzjv {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    -moz-box-align: center;
+    align-items: center;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+.mui-8pe45r {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.mui-14j6eks {
+    display: flex;
+    flex-direction: row;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    -moz-box-align: center;
+    align-items: center;
+    gap: 48px;
+    padding: 100px 48px 120px;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.mui-64ufro {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: auto;
+    flex-direction: row;
+    will-change: transform, opacity;
+    user-select: none;
+    transition: transform 0.5s;
+    touch-action: pan-y;
+}
+
+.mui-17ec9fy {
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+    display: block;
+    flex-shrink: 0;
+}
+
+.mui-myb1yx {
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.mui-g6x49l {
+    width: 100vw;
+    background: linear-gradient(0deg, rgb(51, 37, 26) 46.69%, rgb(34, 25, 17) 100.06%, rgb(35, 26, 17) 106.8%);
 }
 
 .mui-1grgdcn {
@@ -840,10 +883,14 @@ body {
     box-shadow: rgb(163, 112, 41) 0px 3px 0px 0px;
 }
 
-.mui-4wkn8j > span, .mui-4wkn8j > span:first-of-type {
+.mui-4wkn8j > span,
+.mui-4wkn8j > span:first-of-type {
     -webkit-text-fill-color: rgb(244, 240, 235);
     -webkit-text-stroke-width: 0px;
-    text-shadow: rgb(155, 107, 39) -1px -1px 0px, rgb(155, 107, 39) 0px -1px 0px, rgb(155, 107, 39) 1px -1px 0px, rgb(155, 107, 39) 1px 0px 0px, rgb(155, 107, 39) 1px 1px 0px, rgb(155, 107, 39) 0px 1px 0px, rgb(155, 107, 39) -1px 1px 0px, rgb(155, 107, 39) -1px 0px 0px;
+    text-shadow: rgb(155, 107, 39) -1px -1px 0px, rgb(155, 107, 39) 0px -1px 0px,
+        rgb(155, 107, 39) 1px -1px 0px, rgb(155, 107, 39) 1px 0px 0px,
+        rgb(155, 107, 39) 1px 1px 0px, rgb(155, 107, 39) 0px 1px 0px,
+        rgb(155, 107, 39) -1px 1px 0px, rgb(155, 107, 39) -1px 0px 0px;
     filter: drop-shadow(rgb(155, 107, 39) 0px 2px 0px);
 }
 
@@ -876,137 +923,1106 @@ body {
     max-width: 665px;
 }
 
-@media (min-width: 600px) {
+.mui-gv8twc {
+    margin: 0px;
+    font-style: normal;
+    font-weight: 400;
+    background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
+    -webkit-text-stroke: 0px rgb(139, 129, 116);
+    color: rgb(244, 240, 235);
+    padding-top: 8px;
+    font-family: BANGOPRO;
+    text-transform: uppercase;
+    width: 500px;
+    letter-spacing: 2px;
+    -webkit-text-fill-color: rgb(244, 240, 235);
+    text-shadow: rgb(133, 100, 71) -1.5px -1.5px 0px, rgb(133, 100, 71) 0px -1.5px 0px,
+        rgb(133, 100, 71) 1.5px -1.5px 0px, rgb(133, 100, 71) 1.5px 0px 0px,
+        rgb(133, 100, 71) 1.5px 1.5px 0px, rgb(133, 100, 71) 0px 1.5px 0px,
+        rgb(133, 100, 71) -1.5px 1.5px 0px, rgb(133, 100, 71) -1.5px 0px 0px;
+    filter: drop-shadow(rgb(133, 100, 71) 0px 2px 0px);
+}
+
+.mui-em4hhf {
+    margin: 0px;
+    font-style: normal;
+    font-weight: 400;
+    background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
+    -webkit-text-stroke: 0px rgb(139, 129, 116);
+    color: rgb(244, 240, 235);
+    font-family: BANGOPRO;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-text-fill-color: rgb(255, 213, 153);
+    text-shadow: rgb(133, 100, 71) -1px -1px 0px, rgb(133, 100, 71) 0px -1px 0px,
+        rgb(133, 100, 71) 1px -1px 0px, rgb(133, 100, 71) 1px 0px 0px,
+        rgb(133, 100, 71) 1px 1px 0px, rgb(133, 100, 71) 0px 1px 0px,
+        rgb(133, 100, 71) -1px 1px 0px, rgb(133, 100, 71) -1px 0px 0px;
+    filter: drop-shadow(rgb(133, 100, 71) 0px 1px 0px);
+}
+
+@media only screen and (max-width: 768px) {
+    element {
+      overflow: auto;
+    }
+  
+    body {
+      margin: 0px;
+      color: rgb(249, 210, 134);
+      font-family: "GAMERIA", sans-serif;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.4;
+    }
+  
+    * {
+      box-sizing: inherit;
+    }
+  
+    .mui-14ploy1 {
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(34, 25, 17);
+    }
+  
+    .mui-1ts5bj3 {
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      z-index: 50;
+    }
+  
+    .mui-r9ggzu {
+      width: 100vw;
+      background-image: url(../images/image\(24\).png) no-repeat;
+      overflow: hidden;
+      z-index: 100;
+      display: flex;
+      justify-content: center;
+      height: 60px;
+    }
+  
+    .mui-ib4p29 {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      max-width: 100%;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .mui-18mlrpa {
+      display: flex;
+      flex-direction: row;
+      max-width: 500px;
+      width: 100%;
+      justify-content: space-between;
+      padding: 8px;
+    }
+  
+    .mui-1ht14y9 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 2px;
+      width: auto;
+      align-items: flex-start;
+    }
+  
+    .mui-7g5nui {
+      margin: 0px;
+      font-weight: 400;
+      letter-spacing: 1.1px;
+      color: rgb(244, 240, 235);
+      font-family: BANGOPRO;
+      text-transform: uppercase;
+    }
+  
+    .mui-15j18an {
+      margin: 0px;
+      font-style: normal;
+      font-size: 11px;
+      line-height: 16px;
+      font-family: "NUNITO", sans-serif;
+      color: rgb(201, 177, 156);
+      font-weight: 700;
+      -webkit-text-fill-color: #5CD834;
+    }
+  
+    .mui-gy1a23 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .mui-gy1a23 > :not(style):not(style) {
+      margin: 0px;
+    }
+  
+    .mui-81gsyc {
+      position: relative;
+      outline: 0px;
+      cursor: pointer;
+      user-select: none;
+      appearance: none;
+      text-decoration: none;
+      color: inherit;
+      text-transform: uppercase;
+      min-width: 64px;
+      box-sizing: border-box;
+      justify-content: center;
+      white-space: nowrap;
+      height: 40px;
+      font-family: "GAMERIA", sans-serif;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+      letter-spacing: 0.9px;
+      -webkit-text-fill-color: unset;
+      -webkit-text-stroke: 0.8px #A92F7C;
+      border: 2px solid #48F1C6;
+      background: #B73E92 url("/images/landing/tgApp/premium-btn-bg.svg") 0% 0% / cover no-repeat;
+      box-shadow: #F4A832 0px 2px 0px, #7D43EA 0px 0px 15px;
+      transition: 0.3s ease-in;
+      padding: 6px 12px;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 4px;
+    }
+  
+    .mui-81gsyc > span {
+      font-family: BANGOPRO;
+      text-transform: uppercase;
+      -webkit-text-fill-color: #29C4B7;
+      -webkit-text-stroke-width: 0px !important;
+      text-shadow: #F67D2E -1px -1px 0px, #9ABF47 0px -1px 0px, #4E72D8 1px -1px 0px, 
+                   #F3A91C 1px 0px 0px, #7BC4E8 1px 1px 0px, rgb(155, 107, 39) 0px 1px 0px, 
+                   rgb(155, 107, 39) -1px 1px 0px, rgb(155, 107, 39) -1px 0px 0px;
+      filter: drop-shadow(#D14F92 0px 1px 0px);
+    }
+  
+    .mui-ljv8ic {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+      padding: 16px 0px;
+      gap: 16px 0px;
+    }
+  
+    .mui-5sjj46 {
+      margin-left: auto;
+      box-sizing: border-box;
+      margin-right: auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .mui-14647vy {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 24px;
+    }
+  
+    .mui-1tcm166 {
+      width: fit-content;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+  
+    .mui-1ftj51d {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      list-style: none;
+      padding: 0px;
+      margin: 0px;
+      gap: 100px;
+    }
+  
+    .mui-14s4iyf {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+  
+    .mui-1xe9xyf {
+      display: flex;
+      align-items: center;
+      padding: 0px;
+      margin: 0px;
+      background: transparent;
+      border: medium;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  
+    .mui-f8g9he {
+      margin: 0px;
+      font-weight: 400;
+      letter-spacing: 1.1px;
+      color: rgb(244, 240, 235);
+      font-size: 16px;
+      line-height: 22px;
+      font-family: BANGOPRO;
+      text-transform: uppercase;
+      text-shadow: rgb(133, 100, 71) -1px -1px 0px, rgb(133, 100, 71) 0px -1px 0px, 
+                   rgb(133, 100, 71) 1px -1px 0px, rgb(133, 100, 71) 1px 0px 0px, 
+                   rgb(133, 100, 71) 1px 1px 0px, rgb(133, 100, 71) 0px 1px 0px, 
+                   rgb(133, 100, 71) -1px 1px 0px, rgb(133, 100, 71) -1px 0px 0px;
+      filter: drop-shadow(rgb(133, 100, 71) 0px 1.5px 0px);
+      transition: 0.5s;
+    }
+  
+    .mui-1pqgegr {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: -14px;
+      right: 4px;
+      background-color: #D763AE;
+      border-radius: 40px;
+      padding: 0px 4px;
+      max-height: 18px;
+    }
+  
+    .mui-1yj45il {
+      margin: 0px;
+      font-style: normal;
+      line-height: 18px;
+      font-weight: 800;
+      font-family: "NUNITO", sans-serif;
+      letter-spacing: 0.2px;
+      color: rgb(245, 245, 245);
+      background: unset;
+      font-size: 11px;
+      -webkit-text-fill-color: #C54B76;
+    }
+  
+    .mui-etw6ry {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .mui-1u5xrkq {
+      display: flex;
+      flex-direction: row;
+      gap: 4px;
+    }
+  
+    .mui-g8v2su {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px;
+      border-radius: 100px;
+      width: 40px;
+      min-width: 40px;
+      height: 40px;
+      border: 2px solid rgb(93, 67, 45);
+      box-shadow: #3F89DA;
+      background-color: #E4B672;
+      transition: background-color 0.5s;
+    }
+  
+    .mui-5flzjv {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      text-align: center;
+      align-items: center;
+      padding-bottom: 60px;
+      margin-bottom: 60px;
+    }
+  
+    .mui-157terx {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      height: 100%;
+      min-height: 600px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+  
+    .mui-doak19 {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      object-fit: cover;
+      object-position: center top;
+      height: 100%;
+      width: 100%;
+      z-index: 0;
+    }
+  
+    .mui-15fa293 {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      height: 100%;
+      width: 100%;
+      background: radial-gradient(74.62% 74.62% at 46.71% 25.38%, rgba(34, 25, 17, 0) 44.27%, rgb(34, 25, 17) 99.55%), 
+                  linear-gradient(360deg, rgba(34, 25, 17, 0) 18.88%, rgb(34, 25, 17) 122.88%);
+    }
+  
+    .mui-xte2ob {
+      margin-left: auto;
+      box-sizing: border-box;
+      margin-right: auto;
+      display: block;
+    }
+  
+    .mui-1exhso2 {
+      display: flex;
+      flex-direction: column;
+      padding: 30px 12px;
+      justify-content: center;
+      height: 700px;
+      gap: 20px;
+    }
+  
+    .mui-1779oj {
+      display: flex;
+      flex-direction: column;
+      padding-top: 10%;
+      gap: 20px;
+      align-items: start;
+      width: 100%;
+    }
+  
+    .mui-prq3ei {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      z-index: 3;
+      text-align: left;
+      align-items: start;
+      width: 100%;
+    }
+  
+    .mui-1qvkqwv {
+      display: flex;
+      position: relative;
+      flex-direction: row;
+      align-items: center;
+      border-radius: 100px;
+      background-color: rgb(69, 50, 33);
+      gap: 4px;
+      width: fit-content;
+      max-height: 40px;
+      padding: 8px 12px;
+    }
+  
+    .mui-6h2ygd {
+      margin: 0px;
+      font-style: normal;
+      line-height: 24px;
+      letter-spacing: 0px;
+      font-weight: 800;
+      font-family: "NUNITO", sans-serif;
+      color: rgb(201, 177, 156);
+      background: unset;
+      font-size: 15px !important;
+      -webkit-text-fill-color: rgb(255, 213, 153);
+    }
+  
+    .mui-1apa7z3 {
+      margin: 0px;
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 1.5px;
+      background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
+      color: rgb(244, 240, 235);
+      text-shadow: rgb(133, 100, 71) -1.5px -1.5px 0px, rgb(133, 100, 71) 0px -1.5px 0px, 
+                   rgb(133, 100, 71) 1.5px -1.5px 0px, rgb(133, 100, 71) 1.5px 0px 0px, 
+                   rgb(133, 100, 71) 1.5px 1.5px 0px, rgb(133, 100, 71) 0px 1.5px 0px, 
+                   rgb(133, 100, 71) -1.5px 1.5px 0px, rgb(133, 100, 71) -1.5px 0px 0px;
+      filter: drop-shadow(rgb(133, 100, 71) 0px 1.5px 0px);
+      font-family: BANGOPRO;
+      text-transform: uppercase;
+      max-width: 700px;
+      font-size: 25px;
+      line-height: 60px;
+    }
+  
+    .mui-bdoyq0 {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      gap: 12px;
+    }
+  
+    .mui-1nzm0el {
+      position: relative;
+      outline: 0px;
+      margin: 0px;
+      cursor: pointer;
+      user-select: none;
+      appearance: none;
+      text-decoration: none;
+      color: inherit;
+      text-transform: uppercase;
+      min-width: 64px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      white-space: nowrap;
+      transition: 0.25s ease-in;
+      padding: 14px 24px;
+      border-radius: 16px;
+      font-family: "GAMERIA", sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: 0.9px;
+      background: rgb(226, 154, 54);
+      border: 2px solid rgb(163, 112, 41);
+      box-shadow: rgb(163, 112, 41) 0px 2px 0px 0px;
+    }
+  
+    .mui-1nzm0el > span {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.8px;
+      background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
+      -webkit-text-stroke: 0.8px rgb(139, 129, 116);
+    }
+  
+    .mui-1nzm0el > span, .mui-1nzm0el > span:first-of-type {
+      color: rgb(244, 240, 235);
+      text-shadow: rgb(155, 107, 39) -1px -1px 0px, rgb(155, 107, 39) 0px -1px 0px, 
+                   rgb(155, 107, 39) 1px -1px 0px, rgb(155, 107, 39) 1px 0px 0px, 
+                   rgb(155, 107, 39) 1px 1px 0px, rgb(155, 107, 39) 0px 1px 0px, 
+                   rgb(155, 107, 39) -1px 1px 0px, rgb(155, 107, 39) -1px 0px 0px;
+      filter: drop-shadow(rgb(155, 107, 39) 0px 1.5px 0px);
+    }
+  
+    .mui-1bxugv4 {
+      position: relative;
+      outline: 0px;
+      border: 0px;
+      margin: 0px;
+      cursor: pointer;
+      user-select: none;
+      appearance: none;
+      text-decoration: none;
+      text-transform: uppercase;
+      min-width: 64px;
+      box-sizing: border-box;
+      justify-content: center;
+      align-items: center;
+      white-space: nowrap;
+      transition: 0.25s ease-in;
+      padding: 14px 6px;
+      border-radius: 16px;
+      font-family: "GAMERIA", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: 0.9px;
+      background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
+      color: rgb(255, 213, 153);
+      -webkit-text-stroke: 0.8px rgb(145, 88, 8);
+      text-shadow: rgb(145, 88, 8) 0px 1px 0px;
+      display: flex;
+      flex-direction: row;
+      gap: 6px;
+    }
+  
+    .mui-1i6d6rg {
+      margin: 0px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0.9px;
+      background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
+      color: rgb(255, 213, 153);
+      text-shadow: rgb(139, 87, 15) -1px -1px 0px, rgb(139, 87, 15) 0px -1px 0px, 
+                   rgb(139, 87, 15) 1px -1px 0px, rgb(139, 87, 15) 1px 0px 0px, 
+                   rgb(139, 87, 15) 1px 1px 0px, rgb(139, 87, 15) 0px 1px 0px, 
+                   rgb(139, 87, 15) -1px 1px 0px, rgb(139, 87, 15) -1px 0px 0px, 
+                   rgb(145, 86, 8) -1px 2px 0px, rgb(145, 86, 8) 0px 2px 0px, 
+                   rgb(145, 86, 8) 1px 2px 0px;
+      font-family: BANGOPRO;
+      text-transform: uppercase;
+    }
+  
+    .mui-g6x49l {
+      width: 100vw;
+      background: linear-gradient(0deg, rgb(51, 37, 26) 46.69%, rgb(34, 25, 17) 100.06%, rgb(35, 26, 17) 106.8%);
+    }
+  
+    .mui-myb1yx {
+      margin-left: auto;
+      box-sizing: border-box;
+      margin-right: auto;
+      display: block;
+      position: relative;
+      overflow: hidden;
+    }
+  
+    .mui-64ufro {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      overflow-x: auto;
+      flex-direction: row;
+      will-change: transform, opacity;
+      user-select: none;
+      transition: transform 0.5s;
+      touch-action: pan-y;
+    }
+  
+    .mui-17ec9fy {
+      margin-left: auto;
+      box-sizing: border-box;
+      margin-right: auto;
+      display: block;
+      flex-shrink: 0;
+    }
+  
+    .mui-14j6eks {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 36px;
+      padding: 80px 36px 100px;
+      width: 100%;
+      overflow: hidden;
+      height: 100%;
+    }
+  
+    .mui-8pe45r {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .mui-cf1k2i {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+  
+    .mui-gv8twc {
+      margin: 0px;
+      font-style: normal;
+      font-weight: 400;
+      background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
+      color: rgb(244, 240, 235);
+      padding-top: 6px;
+      font-family: BANGOPRO;
+      text-transform: uppercase;
+      width: 100%;
+      letter-spacing: 1.5px;
+      text-shadow: rgb(133, 100, 71) -1px -1px 0px, rgb(133, 100, 71) 0px -1px 0px, 
+                   rgb(133, 100, 71) 1px -1px 0px, rgb(133, 100, 71) 1px 0px 0px, 
+                   rgb(133, 100, 71) 1px 1px 0px, rgb(133, 100, 71) 0px 1px 0px, 
+                   rgb(133, 100, 71) -1px 1px 0px, rgb(133, 100, 71) -1px 0px 0px;
+      filter: drop-shadow(rgb(133, 100, 71) 0px 1.5px 0px);
+    }
+  
+    .mui-em4hhf {
+      margin: 0px;
+      font-style: normal;
+      font-weight: 400;
+      background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
+      color: rgb(244, 240, 235);
+      font-family: BANGOPRO;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      text-shadow: rgb(133, 100, 71) -1px -1px 0px, rgb(133, 100, 71) 0px -1px 0px, 
+                   rgb(133, 100, 71) 1px -1px 0px, rgb(133, 100, 71) 1px 0px 0px, 
+                   rgb(133, 100, 71) 1px 1px 0px, rgb(133, 100, 71) 0px 1px 0px, 
+                   rgb(133, 100, 71) -1px 1px 0px, rgb(133, 100, 71) -1px 0px 0px;
+      filter: drop-shadow(rgb(133, 100, 71) 0px 1px 0px);
+    }
+  
+    .mui-1grgdcn {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      max-width: 400px;
+    }
+  
+    .mui-dz4avb {
+      margin: 0px;
+      font-style: normal;
+      letter-spacing: 0px;
+      font-weight: 600;
+      font-family: "NUNITO", sans-serif;
+      color: rgb(201, 177, 156);
+      max-width: 400px;
+    }
+  
+    .mui-4wkn8j {
+      position: relative;
+      outline: 0px;
+      margin: 0px;
+      cursor: pointer;
+      user-select: none;
+      appearance: none;
+      text-decoration: none;
+      color: inherit;
+      text-transform: uppercase;
+      min-width: 64px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      white-space: nowrap;
+      transition: 0.25s ease-in;
+      padding: 14px 24px;
+      border-radius: 16px;
+      font-family: "GAMERIA", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: 0.9px;
+      background: rgb(226, 154, 54);
+      border: 2px solid rgb(163, 112, 41);
+      box-shadow: rgb(163, 112, 41) 0px 2px 0px 0px;
+    }
+  
+    .mui-4wkn8j > span, .mui-4wkn8j > span:first-of-type {
+      -webkit-text-fill-color: rgb(244, 240, 235);
+      -webkit-text-stroke-width: 0px;
+      text-shadow: rgb(155, 107, 39) -1px -1px 0px, rgb(155, 107, 39) 0px -1px 0px, 
+                   rgb(155, 107, 39) 1px -1px 0px, rgb(155, 107, 39) 1px 0px 0px, 
+                   rgb(155, 107, 39) 1px 1px 0px, rgb(155, 107, 39) 0px 1px 0px, 
+                   rgb(155, 107, 39) -1px 1px 0px, rgb(155, 107, 39) -1px 0px 0px;
+      filter: drop-shadow(rgb(155, 107, 39) 0px 1.5px 0px);
+    }
+  
+    .mui-4wkn8j > span {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.8px;
+      background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
+      -webkit-text-stroke: 0.8px rgb(139, 129, 116);
+    }
+  
+    .mui-8zob45 {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .mui-1wjcd5v {
+      display: flex;
+      position: relative;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 665 / 511;
+      max-width: 500px;
+    }
+  }
+  
+  @media (min-width: 600px) {
     .mui-18mlrpa > :not(style):not(style) {
       margin: 0px;
+    }
+  
+    .mui-18mlrpa > :not(style) ~ :not(style) {
+      margin-left: 8px;
+    }
+  
+    .mui-5sjj46 {
+      max-width: 1270px;
+      width: 100%;
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+  
+    .mui-xte2ob {
+      max-width: 1270px;
+      width: 100%;
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+  
+    .mui-1i6d6rg {
+      font-size: 19px;
+    }
+  
+    .mui-myb1yx {
+      max-width: 1270px;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .mui-6h2ygd {
+        margin: 0px;
+        font-style: normal;
+        line-height: 28px;
+        letter-spacing: 0px;
+        -webkit-text-stroke: 0px rgb(139, 129, 116);
+        font-weight: 800;
+        font-family: "NUNITO", sans-serif;
+        color: rgb(201, 177, 156);
+        filter: unset;
+        background: unset;
+        font-size: 17px !important;
+        -webkit-text-fill-color: rgb(255, 213, 153);
+    }
+
+    .mui-prq3ei {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        z-index: 3;
+        text-align: left;
+        -moz-box-align: start;
+        align-items: start;
+        width: 100%;
+    }
+
+    .mui-1779oj {
+        display: flex;
+        flex-direction: column;
+        padding-top: 12%;
+        gap: 28px;
+        -moz-box-align: start;
+        align-items: start;
+        width: 100%;
+    }
+
+    .mui-1exhso2 {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 16px;
+        -moz-box-pack: center;
+        justify-content: center;
+        height: 900px;
+        gap: 28px;
+    }
+
+    .mui-doak19 {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        object-fit: cover;
+        object-position: center top;
+        height: 100%;
+        width: 100%;
+        z-index: 0;
+    }
+
+    .mui-157terx {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: 100%;
+        min-height: 800px;
+        width: 100%;
+        -moz-box-align: center;
+        align-items: center;
+        -moz-box-pack: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .mui-5flzjv {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+        -moz-box-align: center;
+        align-items: center;
+        padding-bottom: 80px;
+        margin-bottom: 80px;
+    }
+
+    .mui-8pe45r {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 32px;
+    }
+
+    .mui-14j6eks {
+        display: flex;
+        flex-direction: row;
+        -moz-box-pack: justify;
+        justify-content: space-between;
+        -moz-box-align: center;
+        align-items: center;
+        gap: 48px;
+        padding: 100px 48px 120px;
+        width: 100%;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .mui-64ufro {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        overflow-x: auto;
+        flex-direction: row;
+        will-change: transform, opacity;
+        user-select: none;
+        transition: transform 0.5s;
+        touch-action: pan-y;
+    }
+
+    .mui-17ec9fy {
+        margin-left: auto;
+        box-sizing: border-box;
+        margin-right: auto;
+        display: block;
+        flex-shrink: 0;
+        max-width: 1270px;
+        width: 100%;
+    }
+
+    .mui-myb1yx {
+        margin-left: auto;
+        box-sizing: border-box;
+        margin-right: auto;
+        display: block;
+        position: relative;
+        overflow: hidden;
+        max-width: 1270px;
+        width: 100%;
+    }
+
+    .mui-g6x49l {
+        width: 100vw;
+        background: linear-gradient(0deg, rgb(51, 37, 26) 46.69%, rgb(34, 25, 17) 100.06%, rgb(35, 26, 17) 106.8%);
+    }
+
+    .mui-1grgdcn {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 460px;
+    }
+
+    .mui-dz4avb {
+        margin: 0px;
+        font-style: normal;
+        letter-spacing: 0px;
+        -webkit-text-stroke: 0px rgb(139, 129, 116);
+        font-weight: 600;
+        font-family: "NUNITO", sans-serif;
+        color: rgb(201, 177, 156);
+        filter: unset;
+        background: unset;
+        -webkit-text-fill-color: rgb(201, 177, 156);
+        max-width: 460px;
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .mui-4wkn8j {
+        position: relative;
+        outline: 0px;
+        margin: 0px;
+        cursor: pointer;
+        user-select: none;
+        appearance: none;
+        text-decoration: none;
+        color: inherit;
+        text-transform: uppercase;
+        min-width: 64px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        -moz-box-pack: center;
+        justify-content: center;
+        -moz-box-align: center;
+        align-items: center;
+        white-space: nowrap;
+        transition: 0.25s ease-in;
+        padding: 18px 30px;
+        border-radius: 20px;
+        font-family: "GAMERIA", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        -webkit-text-fill-color: unset;
+        -webkit-text-stroke: 1px rgb(139, 129, 116);
+        background: rgb(226, 154, 54);
+        border: 2px solid rgb(163, 112, 41);
+        box-shadow: rgb(163, 112, 41) 0px 3px 0px 0px;
+        width: fit-content;
+    }
+
+    .mui-4wkn8j > span,
+    .mui-4wkn8j > span:first-of-type {
+        -webkit-text-fill-color: rgb(244, 240, 235);
+        -webkit-text-stroke-width: 0px;
+        text-shadow: rgb(155, 107, 39) -1px -1px 0px, rgb(155, 107, 39) 0px -1px 0px,
+            rgb(155, 107, 39) 1px -1px 0px, rgb(155, 107, 39) 1px 0px 0px,
+            rgb(155, 107, 39) 1px 1px 0px, rgb(155, 107, 39) 0px 1px 0px,
+            rgb(155, 107, 39) -1px 1px 0px, rgb(155, 107, 39) -1px 0px 0px;
+        filter: drop-shadow(rgb(155, 107, 39) 0px 2px 0px);
+    }
+
+    .mui-4wkn8j > span {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
+        -webkit-text-stroke: 1px rgb(139, 129, 116);
+    }
+
+    .mui-4wkn8j > span {
+        white-space: nowrap;
+    }
+
+    .mui-8zob45 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        -moz-box-align: end;
+        align-items: end;
+    }
+
+    .mui-1wjcd5v {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 665 / 511;
+        max-width: 665px;
+    }
+
+    .mui-gv8twc {
+        margin: 0px;
+        font-style: normal;
+        font-weight: 400;
+        background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
+        -webkit-text-stroke: 0px rgb(139, 129, 116);
+        color: rgb(244, 240, 235);
+        padding-top: 8px;
+        font-family: BANGOPRO;
+        text-transform: uppercase;
+        width: 500px;
+        letter-spacing: 2px;
+        -webkit-text-fill-color: rgb(244, 240, 235);
+        text-shadow: rgb(133, 100, 71) -1.5px -1.5px 0px, rgb(133, 100, 71) 0px -1.5px 0px,
+            rgb(133, 100, 71) 1.5px -1.5px 0px, rgb(133, 100, 71) 1.5px 0px 0px,
+            rgb(133, 100, 71) 1.5px 1.5px 0px, rgb(133, 100, 71) 0px 1.5px 0px,
+            rgb(133, 100, 71) -1.5px 1.5px 0px, rgb(133, 100, 71) -1.5px 0px 0px;
+        filter: drop-shadow(rgb(133, 100, 71) 0px 2px 0px);
+        font-size: 20px;
+        line-height: 52px;
+    }
+
+    .mui-em4hhf {
+        margin: 0px;
+        font-style: normal;
+        font-weight: 400;
+        background: linear-gradient(rgb(246, 245, 244) 0%, rgb(208, 204, 200) 115.91%) padding-box text;
+        -webkit-text-stroke: 0px rgb(139, 129, 116);
+        color: rgb(244, 240, 235);
+        font-family: BANGOPRO;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        -webkit-text-fill-color: rgb(255, 213, 153);
+        text-shadow: rgb(133, 100, 71) -1px -1px 0px, rgb(133, 100, 71) 0px -1px 0px,
+            rgb(133, 100, 71) 1px -1px 0px, rgb(133, 100, 71) 1px 0px 0px,
+            rgb(133, 100, 71) 1px 1px 0px, rgb(133, 100, 71) 0px 1px 0px,
+            rgb(133, 100, 71) -1px 1px 0px, rgb(133, 100, 71) -1px 0px 0px;
+        filter: drop-shadow(rgb(133, 100, 71) 0px 1px 0px);
+        font-size: 20px;
+        line-height: 52px;
+    }
+
+    .mui-xte2ob {
+        max-width: 1270px;
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .mui-5sjj46 {
+        max-width: 1270px;
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .mui-1i6d6rg {
+        font-size: 19px;
+    }
+
+    .mui-18mlrpa > :not(style):not(style) {
+        margin: 0px;
+    }
+
+    .mui-18mlrpa > :not(style) ~ :not(style) {
+        margin-left: 8px;
+    }
+}
+
+@media (min-width: 900px) {
+    .mui-7g5nui {
+        font-size: 20px;
+        line-height: 28px;
+        -webkit-text-fill-color: rgb(255, 255, 255) !important;
+        text-shadow: rgb(106, 63, 118) -1.5px -1.5px 0px,
+            rgb(106, 63, 118) 0px -1.5px 0px, rgb(106, 63, 118) 1.5px -1.5px 0px,
+            rgb(106, 63, 118) 1.5px 0px 0px, rgb(106, 63, 118) 1.5px 1.5px 0px,
+            rgb(106, 63, 118) 0px 1.5px 0px, rgb(106, 63, 118) -1.5px 1.5px 0px,
+            rgb(106, 63, 118) -1.5px 0px 0px !important;
+        filter: drop-shadow(rgb(106, 63, 118) 0px 1px 0px) !important;
+    }
+
+    .mui-15j18an {
+        display: block;
+    }
+
+    .mui-cf1k2i {
+        width: 420px;
     }
 }
 
 @media (min-width: 0px) {
     .mui-7g5nui {
-      text-align: center;
-      padding-right: 12px;
-    }
-}
-
-@media (min-width: 900px) {
-    .mui-7g5nui {
-      font-size: 20px;
-      line-height: 28px;
-      -webkit-text-fill-color: rgb(255, 255, 255) !important;
-      text-shadow: rgb(106, 63, 118) -1.5px -1.5px 0px, rgb(106, 63, 118) 0px -1.5px 0px, rgb(106, 63, 118) 1.5px -1.5px 0px, rgb(106, 63, 118) 1.5px 0px 0px, rgb(106, 63, 118) 1.5px 1.5px 0px, rgb(106, 63, 118) 0px 1.5px 0px, rgb(106, 63, 118) -1.5px 1.5px 0px, rgb(106, 63, 118) -1.5px 0px 0px !important;
-      filter: drop-shadow(rgb(106, 63, 118) 0px 1px 0px) !important;
-    }
-}
-
-@media (min-width: 900px) {
-    .mui-15j18an {
-      display: block;
-    }
-}
-
-@media (min-width: 600px) {
-    .mui-18mlrpa > :not(style) ~ :not(style) {
-      margin-left: 8px;
-    }
-}
-
-@media (min-width: 600px) {
-    .mui-18mlrpa > :not(style):not(style) {
-      margin: 0px;
-    }
-}
-
-@media (min-width: 600px) {
-    .mui-5sjj46 {
-      max-width: 1270px;
-      width: 100%;
-    }
-}
-
-@media (min-width: 600px) {
-    .mui-5sjj46 {
-      padding-left: 12px;
-      padding-right: 12px;
-    }
-}
-
-@media (min-width: 600px) {
-    .mui-xte2ob {
-      max-width: 1270px;
-      width: 100%;
-    }
-}
-
-@media (min-width: 600px) {
-    .mui-xte2ob {
-      padding-left: 12px;
-      padding-right: 12px;
-    }
-}
-
-@media (min-width: 600px) {
-    .mui-1i6d6rg {
-      font-size: 19px;
-    }
-}
-
-@media (min-width: 600px) {
-    .mui-myb1yx {
-      max-width: 1270px;
-      width: 100%;
-    }
-}
-
-@media (min-width: 600px) {
-    .mui-17ec9fy {
-      max-width: 1270px;
-      width: 100%;
-    }
-}
-
-@media (min-width: 600px) {
-    .mui-8pe45r {
-      gap: 32px;
-    }
-}
-
-@media (min-width: 900px) {
-    .mui-cf1k2i {
-      width: 420px;
-    }
-}
-
-@media (min-width: 600px) {
-    .mui-gv8twc {
-      font-size: 40px;
-      line-height: 52px;
-    }
-}
-
-@media (min-width: 600px) {
-    .mui-em4hhf {
-      font-size: 40px;
-      line-height: 52px;
-    }
-}
-
-@media (min-width: 900px) {
-    .mui-dz4avb {
-      font-size: 20px;
-      line-height: 34px;
-    }
-}
-
-@media (min-width: 600px) {
-    .mui-4wkn8j {
-      width: fit-content;
-    }
-}
-
-@media (min-width: 1200px) {
-    .mui-8zob45 {
-      -moz-box-align: end;
-      align-items: end;
+        text-align: center;
+        padding-right: 12px;
     }
 }
